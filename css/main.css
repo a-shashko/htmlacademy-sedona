@@ -10,8 +10,8 @@ body {
 	color: #333333;
 	text-transform: uppercase;
 	background-color: #ffffff;
-	/*background-image: url("C:/Users/SA-PS/YandexDisk/Видео курсы/HTML/sedona/img/background.jpg"), url("C:/Users/SA-PS/YandexDisk/Видео курсы/HTML/sedona/img/shape-24.png");*/
-	background-image: url("C:/Users/User/YandexDisk/Видео курсы/HTML/sedona/img/background.jpg");
+	/*background-image: url("../img/background.jpg"), url("../img/shape-24.png");*/
+	background-image: url("../img/background.jpg");
 	background-repeat: no-repeat;
 }
 
@@ -24,6 +24,7 @@ a {
 	line-height: 26px;
 	color: #000000;
 	background-color: #ffffff;
+
 }
 
 .site-navigation {
@@ -52,7 +53,7 @@ a {
 }
 
 .intro {
-	width: 1200px;
+
 	min-height: 500px;
 }
 
