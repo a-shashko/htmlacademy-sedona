@@ -1,0 +1,78 @@
+/*css sedona*/
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'PT Sans', Arial, sans-serif;
+	font-size: 14px;
+	line-height: 21px;
+	font-weight: 400;
+	color: #333333;
+	text-transform: uppercase;
+	background-color: #ffffff;
+	/*background-image: url("C:/Users/SA-PS/YandexDisk/Видео курсы/HTML/sedona/img/background.jpg"), url("C:/Users/SA-PS/YandexDisk/Видео курсы/HTML/sedona/img/shape-24.png");*/
+	background-image: url("C:/Users/User/YandexDisk/Видео курсы/HTML/sedona/img/background.jpg");
+	background-repeat: no-repeat;
+}
+
+a {
+	text-decoration: none;
+}
+
+.main-navigation {
+	margin-bottom: -15px;
+	line-height: 26px;
+	color: #000000;
+	background-color: #ffffff;
+}
+
+.site-navigation {
+	margin: 0;
+	display: inline-block;
+	list-style: none;
+}
+
+.site-navigation li {
+	display: inline-block;
+	line-height: 26px;
+	vertical-align: middle;
+}
+
+.site-navigation a {
+	color: #000000;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+	color: #81b3d2;
+}
+
+.site-navigation a:active {
+	color: #333333;
+}
+
+.intro {
+	width: 1200px;
+	min-height: 500px;
+}
+
+.visually-hidden {
+	display: none;
+}
+
+.reasons {
+	min-width: 768px;
+	padding: 50px;
+	background-color: #ffffff;
+}
+
+.reasons p {
+	text-align: center;
+}
+
+.reasons-header {
+	margin-bottom: 35px;
+	font-size: 21px;
+	line-height: 26px;
+	font-weight: 700;
+}
