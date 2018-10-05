@@ -10,18 +10,16 @@ body {
 	color: #333333;
 	text-transform: uppercase;
 	background-color: #ffffff;
-	/*background-image: url("../img/background.jpg"), url("../img/shape-24.png");*/
-	background-image: url("../img/background.jpg");
-	background-repeat: no-repeat;
 }
 
 a {
+	margin: 0;
+	padding: 0;
 	text-decoration: none;
 }
 
 .main-navigation {
-	margin-bottom: -15px;
-	line-height: 26px;
+
 	color: #000000;
 	background-color: #ffffff;
 
@@ -29,6 +27,7 @@ a {
 
 .site-navigation {
 	margin: 0;
+	padding: 0;
 	display: inline-block;
 	list-style: none;
 }
@@ -53,8 +52,10 @@ a {
 }
 
 .intro {
-
 	min-height: 500px;
+	/*background-image: url("img/background.jpg"), url("img/shape-24.png");*/
+	background-image: url("../img/background.jpg");
+	background-repeat: no-repeat;
 }
 
 .visually-hidden {
