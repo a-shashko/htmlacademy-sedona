@@ -79,7 +79,7 @@ a {
 	font-weight: 700;
 }
 
-.advantages-list > li:nth-child(1),
+.advantages-list + li:nth-child(1),
 .advantages-list li:nth-child(2) {
 	color: #ffffff;
 	background-color: #99cccc;
