@@ -22,16 +22,6 @@ p {
 	margin: 0;
 }
 
-h2 {
-	line-height: 36px;
-	font-size: 30px;
-}
-
-h3 {
-	line-height: 21px;
-	font-size: 21px;
-}
-
 .main-navigation {
 
 	color: #000000;
@@ -113,23 +103,21 @@ h3 {
 }
 
 .advantage-text p:nth-child(2) {
-	/*margin: 20px 0;*/
+	margin: 20px 0;
 }
 
 .advantage h3 {
 	font-size: 21px;
-/*	line-height: 21px;*/
+	line-height: 21px;
 }
 
-picture {
-	margin: 0;
-	padding: 0;
+.advantage-image {
+	height: 256px;
 }
 
 .features	 {
 	display: flex;
 	padding: 0;
-	margin: 40px 0 40px;
 	list-style: none;
 }
 
