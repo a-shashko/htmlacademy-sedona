@@ -262,6 +262,11 @@ p {
 	margin: 30px 0;
 }
 
+.search-form label {
+	line-height: 26px;
+	font-weight: 700;
+}
+
 .date-input {
 	width: 340px;
 	height: 40px;
