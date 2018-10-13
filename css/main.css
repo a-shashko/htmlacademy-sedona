@@ -5,6 +5,7 @@ body {
 	padding: 0;
 	font-family: 'PT Sans', Arial, sans-serif;
 	font-size: 14px;
+	line-height: 21px;
 	font-weight: 400;
 	color: #333333;
 	text-transform: uppercase;
@@ -106,7 +107,9 @@ p {
 	margin: 20px 0;
 }
 
-.advantage h3 {
+.advantage-title {
+	margin: 0;
+	white-space: pre-line;
 	font-size: 21px;
 	line-height: 21px;
 }
@@ -117,12 +120,15 @@ p {
 
 .features	 {
 	display: flex;
+	margin: 0;
 	padding: 0;
 	list-style: none;
 }
 
 .features	li {
-	max-width: 400px;
+	width: 33%;
+	margin: 60px 0 80px;
+	padding: 0 60px;
 }
 
 .features	 h3 {
@@ -133,6 +139,15 @@ p {
 
 .advantage-brife {
 	display: flex;
+	padding: 0;
+	margin: 0;
+	min-height: 256px;
+	list-style: none;
+	background-color: #eeeeee;
+}
+
+.advantage-brife li {
+	padding: 45px 60px 60px;
 }
 
 .advantage-brife h3 {
@@ -140,6 +155,113 @@ p {
 	line-height: 21px;
 }
 
+.booking {
+	/*min-height: 250px;*/
+	padding: 50px 0 0;
+	margin: 0;
+}
+
 .booking h2 {
+	margin: 0;
+	font-size: 30px;
+	line-height: 36px;
 	text-align: center;
+}
+
+.booking p {
+	margin: 30px 0 50px;
+	white-space: pre-line;
+}
+
+.button {
+	display: block;
+	font-size: 21px;
+	line-height: 26px;
+	font-weight: 700;
+	color: #ffffff;
+	text-transform: uppercase;
+	border: none;
+}
+
+.button-search {
+	width: 565px;
+	height: 85px;
+	margin: 0 auto;
+	background-color: #766357;
+}
+
+.button-search:hover,
+.button-search:focus {
+	background-color: #604e43;
+}
+.button-search:active {
+	background-color: #503e33;
+}
+
+.index-map {
+	margin: 0;
+	padding: 0;
+}
+
+/*footer*/
+
+.main-footer {
+	padding: 35px 0;
+	position: relative;
+	margin: -100px 0 0;
+	background-color: #ffffff;
+}
+
+.main-footer .container {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+}
+
+.footer-adress {
+	width: 33%;
+	font-size: 21px;
+	line-height: 48px;
+	font-weight: 700;
+}
+
+.footer-social {
+	width: 33%;
+}
+
+.footer-social a {
+	display: inline-block;
+	width: 48px;
+	line-height: 48px;
+	background-color: #81b3d2;
+}
+
+.footer-social img {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.footer-copywrite {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 33%;
+}
+
+.footer-copywrite span {
+	padding-right: 10px;
+}
+
+.search-form {
+	padding: 55px 35px;
+}
+
+.search-form p {
+	white-space: nowrap;
+	margin: 30px 0;
+}
+
+.date-input {
+	width: 340px;
+	height: 40px;
 }
