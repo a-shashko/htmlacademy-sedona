@@ -183,15 +183,15 @@ p {
 	border: none;
 }
 
-.button-search {
+.show-searchform {
 	width: 565px;
 	height: 85px;
 	margin: 0 auto;
 	background-color: #766357;
 }
 
-.button-search:hover,
-.button-search:focus {
+.show-searchform:hover,
+.show-searchform:focus {
 	background-color: #604e43;
 }
 .button-search:active {
@@ -252,16 +252,23 @@ p {
 	padding-right: 10px;
 }
 
+/*modal form*/
+
 .search-form {
 	padding: 55px 35px;
 }
 
 .search-form p {
-	white-space: nowrap;
 	margin: 30px 0;
 }
 
 .date-input {
 	width: 340px;
 	height: 40px;
+}
+
+.button-search {
+	width: 460px;
+	height: 60px;
+	background-color: #81b3d2;
 }
