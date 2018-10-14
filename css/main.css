@@ -31,16 +31,17 @@ p {
 }
 
 .site-navigation {
+	display: flex;
+	justify-content: space-around;
 	margin: 0;
 	padding: 0;
-	display: inline-block;
 	list-style: none;
 }
 
 .site-navigation li {
 	display: inline-block;
 	line-height: 26px;
-	vertical-align: middle;
+
 }
 
 .site-navigation a {
@@ -57,10 +58,11 @@ p {
 }
 
 .intro {
-	min-height: 500px;
+	min-height: 507px;
 	/*background-image: url("img/background.jpg"), url("img/shape-24.png");*/
-	background-image: url("../img/background.jpg");
+	background-image: url("../img/background-3.jpg");
 	background-repeat: no-repeat;
+	background-size: 1200px 507px;
 }
 
 .container {
