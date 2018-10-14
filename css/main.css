@@ -23,6 +23,12 @@ p {
 	margin: 0;
 }
 
+img {
+	border: none;
+}
+
+/*header*/
+
 .main-navigation {
 
 	color: #000000;
@@ -33,28 +39,36 @@ p {
 .site-navigation {
 	display: flex;
 	justify-content: space-around;
+	align-items: center;
 	margin: 0;
 	padding: 0;
 	list-style: none;
 }
 
+.main-logo {
+	margin-bottom: -20px;
+}
+
 .site-navigation li {
 	display: inline-block;
 	line-height: 26px;
-
+	font-weight: 700;
 }
 
 .site-navigation a {
 	color: #000000;
 }
 
-.site-navigation a:hover,
-.site-navigation a:focus {
+.site-navigation a:hover {
 	color: #81b3d2;
 }
 
+.site-navigation a:focus {
+	color: #c7c7c7;
+}
+
 .site-navigation a:active {
-	color: #333333;
+	color: #bfb6b1;
 }
 
 .intro {
@@ -65,12 +79,20 @@ p {
 	background-size: 1200px 507px;
 }
 
+.intro img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
 .container {
 	max-width: 1200px;
-	padding: 0 40px;
 	margin: 0 auto;
 	text-align: center;
 }
+
+/*main*/
 
 .visually-hidden {
 	display: none;
@@ -238,6 +260,14 @@ p {
 	background-color: #81b3d2;
 }
 
+.footer-social a:hover {
+	background-color: #669ec0;
+}
+
+.footer-social a:active {
+	background-color: #5496bd;
+}
+
 .footer-social img {
 	display: inline-block;
 	vertical-align: middle;
@@ -252,6 +282,10 @@ p {
 
 .footer-copywrite span {
 	padding-right: 10px;
+}
+
+.footer-copywrite img:hover {
+		background-image: url("../img/htmlacademy-logo-hover-24.png");
 }
 
 /*modal form*/
