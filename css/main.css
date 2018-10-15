@@ -47,6 +47,7 @@ img {
 
 .main-logo {
 	margin-bottom: -20px;
+	z-index: 1;
 }
 
 .site-navigation li {
@@ -72,11 +73,13 @@ img {
 }
 
 .intro {
+	position: relative;
 	min-height: 507px;
 	/*background-image: url("img/background.jpg"), url("img/shape-24.png");*/
-	background-image: url("../img/background-3.jpg");
+	background-image: url("../img/shape-24.png"), url("../img/background.jpg");
 	background-repeat: no-repeat;
-	background-size: 1200px 507px;
+	background-position: 50% bottom, 50% -50px;
+	background-size: auto, 1200px 773px;
 }
 
 .intro img {
