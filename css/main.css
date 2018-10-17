@@ -202,12 +202,15 @@ img {
 
 .button {
 	display: block;
+	text-transform: uppercase;
+	border: none;
+}
+
+.index-button {
 	font-size: 21px;
 	line-height: 26px;
 	font-weight: 700;
 	color: #ffffff;
-	text-transform: uppercase;
-	border: none;
 }
 
 .show-searchform {
@@ -237,6 +240,10 @@ img {
 	position: relative;
 	margin: -100px 0 0;
 	background-color: #ffffff;
+}
+
+.inner-page .main-footer {
+	margin: 0;
 }
 
 .main-footer .container {

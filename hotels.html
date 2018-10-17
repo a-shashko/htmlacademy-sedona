@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sedona hotels</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+  </head>
+  <body class="inner-page">
+    <header class="main-header container">
+			<nav class="main-navigation">
+				<ul class="site-navigation">
+					<li><a href="#">Главная</a></li>
+					<li><a href="#">Фото и видео</a></li>
+					<li class="main-logo"><a href="#"><img src="img/logo-8.png" width="138" height="70" alt="Логотип Седона"></a></li>
+					<li><a href="#">Карта штата</a></li>
+					<li><a href="#">Гостиницы</a></li>
+				</ul>
+			</nav>
+		</header>
+    <main class="container">
+      <h1 class="visually-hidden">Отели</h1>
+      <section class="hotel-filters">
+        <form class="filter" method="get" action="https://echo.htmlacademy.ru/">
+          <fieldset>
+            <legend>Инфраструктура</legend>
+                <ul>
+                  <li class="filter-option">
+                    <input class="filter-input" type="checkbox" name="waterpool" id="filter-waterpool" checked>
+                    <label for="filter-waterpool">Бассейн</label>
+                  </li>
+                  <li class="filter-option">
+                    <input class="filter-input" type="checkbox" name="waterpool" id="filter-waterpool">
+                    <label for="filter-waterpool">Парковка</label>
+                  </li>
+                  <li class="filter-option">
+                    <input class="filter-input" type="checkbox" name="wifi" id="filter-wifi">
+                    <label for="filter-wifi">Wi-fi</label>
+                  </li>
+                </ul>
+          </fieldset>
+          <fieldset>
+            <legend>Тип жилья</legend>
+                <ul>
+                  <li class="filter-option">
+                    <input class="filter-input" type="checkbox" name="hotel" id="filter-hotel" checked>
+                    <label for="filter-hotel">Гостиница</label>
+                  </li>
+                  <li class="filter-option">
+                    <input class="filter-input" type="checkbox" name="motel" id="filter-motel" checked>
+                    <label for="filter-motel">Мотель</label>
+                  </li>
+                  <li class="filter-option">
+                    <input class="filter-input" type="checkbox" name="apartment" id="filter-apartment" checked>
+                    <label for="filter-apartment">Апартаменты</label>
+                  </li>
+                </ul>
+          </fieldset>
+          <fieldset>
+            <legend>Стоимость в сутки (Р):</legend>
+          </fieldset>
+          <button class="button button-show">Показать</button>
+        </form>
+      </section>
+      <section class="sorting-hotels">
+
+      </section>
+      <section class="search-results">
+      </section>
+    </main>
+    <footer class="main-footer">
+      <div class="container">
+        <p class="footer-adress">#visitsedona</p>
+        <div class="footer-social">
+          <a href="#"><img src="img/t.svg" alt="Twitter"></a>
+          <a href="#"><img src="img/fb-icon.svg" alt="Facebook"></a>
+          <a href="#"><img src="img/youtube.svg" alt="Youtube"></a>
+        </div>
+        <div class="footer-copywrite">
+          <span>website by</span><a href="https://htmlacademy.ru/"><img src="img/htmlacademy-logo-24.png" width="115" height="40" alt="htmlacademy"></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
