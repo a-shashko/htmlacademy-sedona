@@ -211,15 +211,17 @@ img {
 
 .button {
 	display: block;
+	font-size: 14px;
+	line-height: 21px;
 	text-transform: uppercase;
 	border: none;
+	color: #ffffff;
 }
 
 .index-button {
 	font-size: 21px;
 	line-height: 26px;
 	font-weight: 700;
-	color: #ffffff;
 }
 
 .show-searchform {
@@ -267,12 +269,35 @@ img {
 	list-style: none;
 }
 
+.button-show {
+	font-size: 16px;
+	background-color: transparent;
+	border: 1px solid #ffffff;
+}
+
+.sorting-sum {
+	font-size: 21px;
+	line-height: 26px;
+	font-weight: 700;
+}
+
+.sorting-hotels span:nth-child(2) {
+	font-size: 12px;
+	line-height: 18px;
+}
+
 .sorting-list {
 	display: inline-block;
+	font-size: 12px;
+	line-height: 18px;
 	list-style: none;
 }
 
-.hotels-columns {
+.sorting-item {
+	display: inline-block;
+}
+
+.hotel-columns {
 	display: flex;
 }
 
@@ -280,7 +305,7 @@ img {
 	width: 50%;
 }
 
-.hotels-columns .column-1 {
+.hotel-columns .column-1 {
 	display: flex;
 }
 
@@ -288,11 +313,30 @@ img {
 	width: 50%;
 }
 
-.result-list,
+.hotel-list,
 .rating-stars {
 	list-style: none;
 }
 
+.hotel-list {
+
+}
+
+.hotel-item {
+	padding: 30px 0;
+}
+
+.hotel-item .column {
+	display: flex;
+}
+
+.hotel-item img {
+	margin-right: 30px;
+}
+
+.hotel-details a {
+	display: block;
+}
 
 /*footer*/
 
