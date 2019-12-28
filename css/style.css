@@ -191,6 +191,7 @@ img {
 }
 
 .booking {
+	position: relative;
 	padding: 50px 0 0;
 	margin: 0;
 	background-color: #ffffff;
@@ -224,8 +225,11 @@ img {
 	font-weight: 700;
 }
 
+.hotels-search__section {
+	width: 570px;
+}
+
 .show-searchform {
-	width: 565px;
 	height: 85px;
 	margin: 0 auto;
 	background-color: #766357;
@@ -237,6 +241,35 @@ img {
 }
 .button-search:active {
 	background-color: #503e33;
+}
+
+.search-form {
+	position: absolute;
+	left: 50%;
+	height: 400px;
+	/*padding: 55px 35px;*/
+	background-color: #ffffff;
+	transform: translate(-50%);
+}
+
+.search-form p {
+	margin: 30px 0;
+}
+
+.search-form label {
+	line-height: 26px;
+	font-weight: 700;
+}
+
+.date-input {
+	width: 340px;
+	height: 40px;
+}
+
+.button-search {
+	width: 460px;
+	height: 60px;
+	background-color: #81b3d2;
 }
 
 .index-map {
@@ -517,27 +550,3 @@ img {
 }
 
 /*modal form*/
-
-.search-form {
-	padding: 55px 35px;
-}
-
-.search-form p {
-	margin: 30px 0;
-}
-
-.search-form label {
-	line-height: 26px;
-	font-weight: 700;
-}
-
-.date-input {
-	width: 340px;
-	height: 40px;
-}
-
-.button-search {
-	width: 460px;
-	height: 60px;
-	background-color: #81b3d2;
-}
