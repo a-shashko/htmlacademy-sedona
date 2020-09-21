@@ -14,15 +14,12 @@
 					<li><a href="index.html">Главная</a></li>
 					<li><a href="#">Фото и видео</a></li>
 				</ul>
-				<a class="main-logo" href="#" ><img src="img/logo-8.png" width="138" height="70" alt="Логотип Седона"></a>
+				<a href="#" ><img class="main-logo__img" src="img/logo-8.png" width="138" height="70" alt="Логотип Седона" /></a>
 				<ul class="top-menu-right">
 					<li><a href="#">Карта штата</a></li>
 					<li><a href="#">Гостиницы</a></li>
 				</ul>
 			</nav>
-			<section class="intro">
-				<img src="img/index-text-24.png" class="intro-image" width="458" height="352" alt="Приветствие">
-			</section>
 		</header>
     <main class="container">
       <h1 class="visually-hidden">Отели</h1>
@@ -30,26 +27,27 @@
         <h2 class="visually-hidden">Фильтрация отелей</h2>
         <form class="filter-form" method="get" action="https://echo.htmlacademy.ru/">
           <div class="hotel-columns">
+            <div class="left-column">
               <fieldset class="infrastructure-filter">
                 <legend>Инфраструктура</legend>
-                    <ul>
+                    <ul class="filter-form__list">
                       <li class="filter-option">
-                        <input class="visually-hidden filter-input" type="checkbox" name="waterpool" id="filter-waterpool" checked>
+                        <input class="visually-hidden" type="checkbox" name="waterpool" id="filter-waterpool" checked>
                         <label for="filter-waterpool">Бассейн</label>
                       </li>
                       <li class="filter-option">
-                        <input class="visually-hidden filter-input" type="checkbox" name="waterpool" id="filter-parking">
+                        <input class="visually-hidden" type="checkbox" name="waterpool" id="filter-parking">
                         <label for="filter-parking">Парковка</label>
                       </li>
                       <li class="filter-option">
-                        <input class="visually-hidden filter-input" type="checkbox" name="wifi" id="filter-wifi">
+                        <input class="visually-hidden" type="checkbox" name="wifi" id="filter-wifi">
                         <label for="filter-wifi">Wi-fi</label>
                       </li>
                     </ul>
               </fieldset>
               <fieldset class="housetype-filter">
                 <legend>Тип жилья</legend>
-                    <ul>
+                    <ul class="filter-form__list">
                       <li class="filter-option">
                         <input class="visually-hidden filter-input" type="checkbox" name="hotel" id="filter-hotel" checked>
                         <label for="filter-hotel">Гостиница</label>
@@ -64,12 +62,16 @@
                       </li>
                     </ul>
               </fieldset>
-              <div class="cost-filter">
-              <fieldset>
+            </div>
+            <div class="right-column">
+              <fieldset class="cost-filter">
                 <legend>Стоимость в сутки (Р):</legend>
-                <label>от</label>
-                <input class="from" name="from">
-                <label>до</label>
+                <input class="cost-filter-from" name="input-from" placeholder="от 0">
+                <span class="input-divider__span"></span>
+                <input class="cost-filter-till" name="input-till" placeholder="до 3000">
+                <span class="cost-filter-bar__span">
+                  <input type="range" name="price-range" min="0" max="3000" value="2000">
+                </span>
                 <button class="button button-show">Показать</button>
               </fieldset>
             </div>
@@ -175,7 +177,7 @@
 				<a href="#"><img src="img/youtube.svg" alt="Youtube"></a>
 			</div>
 			<div class="footer-copywrite">
-				<span>website by</span><a href="https://htmlacademy.ru/"><img src="img/htmlacademy-logo-24.png" width="115" height="40" alt="htmlacademy"></a>
+				<span>website by</span><a href="#"><span class="logo-name__span"></span></a>
 			</div>
 		</footer>
   </body>
